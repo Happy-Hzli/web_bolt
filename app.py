@@ -15,7 +15,7 @@ API_BASE_URL = 'https://5sim.net/v1'
 ADMIN_USERNAME = ''
 ADMIN_PASSWORD = ''
 # MODIFIED: Set the public-facing URL here
-PUBLIC_BASE_URL = 'http://120.26.94.105:7000/'
+PUBLIC_BASE_URL = ''
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
